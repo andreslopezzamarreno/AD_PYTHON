@@ -29,10 +29,13 @@ def dameNumero():
     x = int(input("introduce un numero"))
     return x
 
+
 def dameNumeros():
     x = int(input("introduce un numero"))
     y = int(input("introduce un numero"))
-    return x ,y
+    return x, y
+
+
 opcion = 0
 a = 0
 b = 0
@@ -47,7 +50,7 @@ while True:
     7.Salir"""))
 
     if opcion == 1:
-        suma(dameNumero(),dameNumero())
+        suma(dameNumero(), dameNumero())
     elif opcion == 2:
         a, b = dameNumeros()
         resta(a, b)
