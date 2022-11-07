@@ -1,0 +1,5 @@
+este fichero es mi primer programa en fichero y lo he escrito en python usando la 
+forma clasica , que es la siguiente:
+whith open() as f
+f.write()
+f.close()
