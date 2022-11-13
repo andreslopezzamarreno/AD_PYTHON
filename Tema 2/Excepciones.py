@@ -16,6 +16,7 @@ except FileNotFoundError:
     print("No existe el fichero")'''
 
 """
+ejercicio1
 escribe un programa que pida por teclado un numero positivo entre 1 y 100 y lo guarde en un fichero llamado ejercicio1-100.txt
 """
 #opcion 1
@@ -33,6 +34,7 @@ with open(nombre_fichero, 'w') as f:
 f.close()'''
 
 """
+ejercicio 2
 escribe un progrma aque pida por teclado un numero positivo entre 1 y 10 y guarde en un fillero
 llamado ejercicio2-tabla.txt la tabla de multiplicar(sin contar el 0) del numero introducido
 """
@@ -43,6 +45,7 @@ for i in range(1,11):
 f.close()'''
 
 """
+ejercicio 3
 escribe programa que escriba todas las tablas de multiplicar
 """
 '''f = open("ejercicio2-tabla.txt","w")
@@ -53,6 +56,7 @@ for n1 in range(1,numero +1):
 f.close()'''
 
 """
+ejercicio 5
  modificar el ej 2 para que el fichero tenga el nombre del número con el que se crea la tabla de multiplicar.
  por ejemplo si es la del 9 que el fichero se llame "ejercicio2-tabla-del-9.txt"
 """
@@ -64,6 +68,7 @@ for i in range(1,11):
 f.close()'''
 
 """
+ejercicio 5
 escribe un progrma que pida un numero entero positivo n entre 1-10
 y en base al numero leido, busque el fichero llamado: "fichero-tabla"
 del-n.txt. este fichero contendra la tabla de multiplicar del numero n
@@ -81,11 +86,11 @@ except FileNotFoundError:
     print("No existe el fichero")'''
 
 """
+ejercicio 6
 escribir un programa en python que lea un numero n por teclado y
  a partir de ese numero, lea las n primeras lineas del fichero creado en el ej2
 """
 numero = int(input("Dime un numero del 1 al 10"))
-
 nombre_fichero = 'ejercicio2-tabla del 1.txt'
 with open(nombre_fichero,"r") as f:
     texto = (linea for i, linea in enumerate(f) if i>= 0 and i<numero)
