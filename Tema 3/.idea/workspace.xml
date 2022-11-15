@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94d52c58-4ac7-4d99-87d0-c49781fe47bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tema 2/EjerciciosExcepciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tema 2/ejercicios1-100.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Clase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prueba1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tema 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tema 2/Excepciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema 2/Excepciones.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tema 2/ejercicio1-100.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema 2/ejercicio1-100.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tema 2/ejercicio2-tabla.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema 2/ejercicio2-tabla.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PruebaIntellij.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="94d52c58-4ac7-4d99-87d0-c49781fe47bb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,13 +26,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Clase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tema 3" />
