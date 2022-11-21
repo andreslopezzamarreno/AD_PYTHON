@@ -85,7 +85,6 @@ with open(nomFichero, "w") as f:
         print(linea)
 f.close()
 """
-#ver dideo 10:31 me falca corregir
 
 """
 Apellido, edad (18),género,Padres(James,Lili)
