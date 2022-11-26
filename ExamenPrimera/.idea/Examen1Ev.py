@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
+
 #Pregunta 5
 while True:
     try:
@@ -18,7 +19,7 @@ while True:
     #coger excepcion
     except ValueError:
         print('Ha pulsado una tecla, por favor introduzca un número')
-
+'''
 #Pregunta 6
 #creacion del diccionario y a la vez pidiendo los datos para meterlos en la clave
 diccionario = {
@@ -28,8 +29,8 @@ diccionario = {
     'telefono': int(input("¿Telefono?"))
 }
 #imprimir datos
-print(f"{midiccionario['nombre']} {midiccionario['apellido']} tiene {midiccionario['edad']} años y su telefono es {midiccionario['telefono']}")
-
+print(f"{diccionario['nombre']} {diccionario['apellido']} tiene {diccionario['edad']} años y su telefono es {diccionario['telefono']}")
+'''
 #Pregunta 7.A
 #abro archivo en modo escritura
 with open ("ficheroexam1.txt", "w") as f:
@@ -136,7 +137,7 @@ try:
 #controlo la excepcion
 except FileNotFoundError:
     print(f"el fichero {fichero} no existe!")
-'''
+
 #Pregunta 9
 
 def consulta_Errores(file):
@@ -237,4 +238,4 @@ def inicio():
         else:
             print("Opcion no valida")
 
-inicio()
+inicio()'''
