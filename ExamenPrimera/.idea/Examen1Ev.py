@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''
 
+'''
 #Pregunta 5
 while True:
     try:
@@ -19,7 +19,7 @@ while True:
     #coger excepcion
     except ValueError:
         print('Ha pulsado una tecla, por favor introduzca un número')
-'''
+
 #Pregunta 6
 #creacion del diccionario y a la vez pidiendo los datos para meterlos en la clave
 diccionario = {
@@ -30,7 +30,8 @@ diccionario = {
 }
 #imprimir datos
 print(f"{diccionario['nombre']} {diccionario['apellido']} tiene {diccionario['edad']} años y su telefono es {diccionario['telefono']}")
-'''
+
+
 #Pregunta 7.A
 #abro archivo en modo escritura
 with open ("ficheroexam1.txt", "w") as f:
@@ -52,7 +53,6 @@ with open ("ficheroexam1.txt", "a") as f:
         #escribo en el achivo
         f.write(f"El numero es:{str(numero)}\n")
 f.close()
-
 
 
 #Pregunta 8.A
@@ -103,6 +103,8 @@ with open ("ficheroexam2.txt", "r") as f:
         print(linea)
 f.close()
 
+
+
 #Pregunta 8.C
 #pido numeros por consola
 nA = int(input("Numero 1"))
@@ -136,82 +138,95 @@ try:
     f.close()
 #controlo la excepcion
 except FileNotFoundError:
-    print(f"el fichero {fichero} no existe!")
+    print(f"El fichero {fichero} no existe!")
 
-#Pregunta 9
+'''
+# Pregunta 9
 
 def consulta_Errores(file):
     print("Consulta errores")
     contador = 0
     try:
-        #abro fichero modo lectura
-        with open (file, "r") as f:
+        # abro fichero modo lectura
+        with open(file, "r") as f:
             fichero = f.readlines()
             for linea in fichero:
-                #cuento numero de errores
+                # cuento numero de errores
                 contador += 1
                 print(linea)
         f.close()
         print(f"\nExisten {contador} errores\n")
-    #controlo excepcion
+    # controlo excepcion
     except FileNotFoundError:
         print("Documento no encontrado")
 
-def Existe_Error(file1,file2):
+
+def Existe_Error(file1, file2):
     print("Existe Error")
     contador = 0
     try:
-        #abro fichero en modo lectura
-        with open (file2, "r") as f:
-            #guardo documento en un diccionari clave-valor
+        # abro fichero en modo lectura
+        with open(file2, "r") as f:
+            # guardo documento en un diccionari clave-valor
             errores = f.readlines()
             errores = dict([tuple(line.split(',')) for line in errores])
         f.close()
-        #abro fichero en modo lectura
-        with open (file1, "r") as fi:
-            #guardo documento en un diccionari clave-valor
+        # abro fichero en modo lectura
+        with open(file1, "r") as fi:
+            # guardo documento en un diccionari clave-valor
             todos = fi.readlines()
             todos = dict([tuple(line.split(',')) for line in todos])
         fi.close()
-        #compruebo cuantos errores coinciden
+        # compruebo cuantos errores coinciden
         for i in errores:
             if i in todos:
                 if errores[i] == todos[i]:
-                    contador+=1
+                    contador += 1
 
         print(f"Tras comprobar concidencias entre el fichero control y errores se han encontrado {contador} coincidencias de errores")
     except FileNotFoundError:
         print("Documento no encontrado")
 
-def Borrar_Errores(file1,file2):
+
+def Borrar_Errores(file1, file2):
     print("Borrar Errores")
+    print(file1,file2)
     try:
-        #abro archivo metodo lectura
-        with open (file2, "r") as f:
-            #guardo documento en un diccionari clave-valor
+        # abro archivo metodo lectura
+        with open(file2, "r") as f:
+            # guardo documento en un diccionari clave-valor
+
             errores = f.readlines()
             errores = dict([tuple(line.split(',')) for line in errores])
         f.close()
-        with open (file1, "r") as fi:
-            #guardo documento en un diccionari clave-valor
+        with open(file1, "r") as fi:
+            # guardo documento en un diccionari clave-valor
+            #x28:y1:z0::ang0,-0.7990214786596245
             todos = fi.readlines()
             todos = dict([tuple(line.split(',')) for line in todos])
-            #guardo antigua longitud antes de borrar
+            # guardo antigua longitud antes de borrar
             longitud = len(todos)
-        fi.close()
-        #compruebo cuantos errores coinciden
-        for i in errores:
-            if i in todos:
-                if errores[i] == todos[i]:
-                    #borro del diccionario
-                    del(todos[i])
+            # compruebo cuantos errores coinciden
+            for i in errores:
+                if i in todos:
+                    if errores[i] == todos[i]:
+                        #borro del diccionario
+                        del(todos[i])
+            fi.close()
+
+        with open(file1, "w") as fil:
+            for i in todos:
+                #print(i+","+todos[i])
+                fil.write(i+","+todos[i])
+        fil.close()
         print(f"Errores eliminados\n\tAntes {longitud} registros\n\tAhora: {len(todos)} registros")
-    #controlo la excepcion
+    # controlo la excepcion
     except FileNotFoundError:
         print("Documento no encontrado")
 
+
 def menu():
-    #pregunto que opcion quiere el usuario
+    # pregunto que opcion quiere el usuario
     print("¿Que quieres hacer?")
     print("1. Consultar Errores")
     print("2. Existe Error")
@@ -220,8 +235,9 @@ def menu():
     elegir = int(input())
     return elegir
 
+
 def inicio():
-    #metodo para ver en que opcion entra
+    # Metodo para ver en que opcion entra
     ficheroTodos = "ficheroexam3.txt"
     ficheroErrores = "ficheroexam4.txt"
     while True:
@@ -229,13 +245,14 @@ def inicio():
         if opcion == 1:
             consulta_Errores(ficheroErrores)
         elif opcion == 2:
-            Existe_Error(ficheroTodos,ficheroErrores)
+            Existe_Error(ficheroTodos, ficheroErrores)
         elif opcion == 3:
-            Borrar_Errores(ficheroTodos,ficheroErrores)
+            Borrar_Errores(ficheroTodos, ficheroErrores)
         elif opcion == 4:
             print("Salir")
             break
         else:
             print("Opcion no valida")
 
-inicio()'''
+
+inicio()
