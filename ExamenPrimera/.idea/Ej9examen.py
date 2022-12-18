@@ -1,6 +1,7 @@
 def consulta_Errores(file):
     print("Consulta errores")
     contador = 0
+    
     try:
         # abro fichero modo lectura
         with open(file, "r") as f:
