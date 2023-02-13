@@ -1,27 +1,40 @@
-arbolPrincipal = {}
+arbolPrincipal = []
 
 def constructor(numero):
     nodo = {'izq': None, 'valor': numero, 'der': None, 'raiz': None}
     return nodo
 
 def esVacio(nodo):
-    if nodo["izq"] == None:
+    if nodo["izq"] == None and nodo ["der"] == None:
         return True
     else:
         return False
 
 def insertar(arbol,numero):
+    print(arbol)
     nodo2 = constructor(numero)
     if len(arbol) != 0:
         if esVacio(nodo2):
             print("vacio")
-            arbolPrincipal = arbol[str(numero)]= nodo2
+            for i in arbol:
+                print(i.get("valor"))
+                if i.get("valor") > nodo2.get("valor"):
+                    i["izq"] = nodo2.get("valor")
+                    arbolPrincipal = arbol.append(nodo2)
+                    break
+                else:
+                    i["der"] = nodo2.get("valor")
+                    arbolPrincipal = arbol.append(nodo2)
+                    break
         else:
-            arbolPrincipal = arbol[str(numero)]= nodo2
+            for i in arbol:
+                print(i)
+            arbolPrincipal = arbol.append(nodo2)
     else:
-        arbolPrincipal = arbol[str(numero)]= nodo2
+        arbolPrincipal = arbol.append(nodo2)
 
 
 insertar(arbolPrincipal,10)
-print(arbolPrincipal)
+insertar(arbolPrincipal,8)
+insertar(arbolPrincipal,6)
 print(arbolPrincipal)
