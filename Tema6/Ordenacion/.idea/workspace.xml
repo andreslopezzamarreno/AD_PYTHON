@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="998465d8-0d26-4084-a228-aea4d4136db4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Tema 5/.idea/Tema 5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Tema 5/Arboles/.idea/ArbolLuismi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Tema 5/Arboles/.idea/Ordenar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Tema 5/Grafos/Grafos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Tema 5/Ordenacion/.idea/Ordenacion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Tema 5/Ordenacion/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Tema 5/Ordenacion/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Tema 5/Ordenacion/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Tema 5/Ordenacion/ordenar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Buscar1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Buscar2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Laberinto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Ordenar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Ordenar2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Ordenar3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ordenacion.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tema 5/Arboles/.idea/ImplementacionArboles.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tema 5/Arboles/.idea/ImplementacionArboles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Laberionto2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Laberinto.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Laberinto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,27 +63,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Buscar1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Ordenacion" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\lopez\Documents\Github\AD_PYTHON\Tema6\Ordenacion\.idea\Buscar1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Buscar2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Ordenacion" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,6 +105,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Laberionto2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Ordenacion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/Laberionto2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Ordenar4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Ordenacion" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Laberinto" />
+        <item itemvalue="Python.Laberionto2" />
         <item itemvalue="Python.Buscar1 (1)" />
         <item itemvalue="Python.Ordenar4" />
         <item itemvalue="Python.Buscar2" />
-        <item itemvalue="Python.Buscar1" />
       </list>
     </recent_temporary>
   </component>
