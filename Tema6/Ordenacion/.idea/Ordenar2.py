@@ -7,3 +7,23 @@ def ordenar2 (lista):
                 lista[j],lista[i] = lista[i],lista[j]
     print(lista)
 ordenar2(listaNumeros)
+
+
+#SOLUCION LUISMI
+def alg_InsertSort(array):
+
+    if (n := len(array)) <= 1:
+        return
+
+    for i in range(1, n):
+        key = array[i]
+        j = i-1
+        while j >=0 and key < array[j] :
+            array[j+1] = array[j]
+            j -= 1
+        array[j+1] = key
+
+
+lista = [40,21,4,9,10,35]
+alg_InsertSort(lista)
+print(lista)

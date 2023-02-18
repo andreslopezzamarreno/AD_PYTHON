@@ -1,9 +1,9 @@
-'''grafo = [
+grafo = [
     [0,2,5,8],
     [0,0,0,1],
     [0,0,0,7],
     [0,0,0,0]
-]'''
+]
 '''grafo =[
     [0,1,0,0,0],
     [0,0,1,6,9],
@@ -11,17 +11,17 @@
     [0,0,0,0,3],
     [0,0,0,0,0]
 ]'''
-grafo =[
+'''grafo =[
     [0,0,0,4,0],
     [0,0,0,0,0],
     [0,3,0,0,2],
     [0,0,2,0,1],
     [0,4,0,0,0]
-]
-#letras = ["A","B","C","D"]
-letras = ["A","B","C","D","E"]
+]'''
+letras = ["A","B","C","D"]
+#letras = ["A","B","C","D","E"]
 posibilidades2 = []
-final = "B"
+final = "D"
 
 def Dijkstra(laberinto):
     minimo = 100
@@ -48,6 +48,7 @@ def Dijkstra(laberinto):
             minimo = int(i[2:])
             posicion = i
     return f'El camino mas corto es llegando por {posicion}'
+
 
 print(Dijkstra(grafo))
 print(posibilidades2)
