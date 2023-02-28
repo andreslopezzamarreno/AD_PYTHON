@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="998465d8-0d26-4084-a228-aea4d4136db4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/laberintoLuismi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Laberinto.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Laberinto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Ordenar.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ordenar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Ordenar2.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ordenar2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Ordenar3.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ordenar3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,16 +31,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lopez/Documents/Github/AD_PYTHON/Tema6/Ordenacion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/lopez/Documents/Github/AD_PYTHON/ExamenPrimera"
   }
-}</component>
-  <component name="RunManager" selected="Python.laberintoLuismi">
+}]]></component>
+  <component name="RunManager" selected="Python.Laberinto">
     <configuration name="Laberinto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Ordenacion" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,10 +148,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Laberinto" />
         <item itemvalue="Python.laberintoLuismi" />
         <item itemvalue="Python.Ordenar" />
         <item itemvalue="Python.Ordenar2" />
-        <item itemvalue="Python.Laberinto" />
         <item itemvalue="Python.Laberionto2" />
       </list>
     </recent_temporary>
