@@ -1,5 +1,3 @@
-listaNumeros = [40,21,4,9,10,35]
-
 def dividir(listaNumero):
     if len(listaNumero)<2:
         return listaNumero
@@ -22,23 +20,17 @@ def ordenar(lista1,lista2):
     listaNum += lista2[j:]
     return listaNum
 
+listaNumeros = [40,21,4,9,10,35]
 listaNumeros = dividir(listaNumeros)
 print(listaNumeros)
 
-
-
-
-
-
 #SOLUCION LUISMI
-
-# Función merge_sort
+"""
+Lo primero que se ve en el psudocódigo es un if que
+comprueba la longitud de la lista. Si es menor que 2 (1 ó 0) se devuelve la lista.
+¿Por que? Ya esta ordenada.
+"""
 def merge_sort(lista):
-    """
-    Lo primero que se ve en el psudocódigo es un if que
-    comprueba la longitud de la lista. Si es menor que 2 (1 ó 0) se devuelve la lista.
-    ¿Por que? Ya esta ordenada.
-    """
     if len(lista) < 2:
         return lista
     # De lo contrario, se divide en 2
@@ -49,12 +41,11 @@ def merge_sort(lista):
         return merge(right, left)
         #return(merge(merge_sort(lista[:middle]),merge_sort(lista[middle:])))
 
-# Función merge
+"""
+merge se encargara de intercalar los elementos de las dos
+divisiones.
+"""
 def merge(lista1, lista2):
-    """
-    merge se encargara de intercalar los elementos de las dos
-    divisiones.
-    """
     i, j = 0, 0 # Variables de incremento
     result = [] # Lista de resultado
 
@@ -70,12 +61,7 @@ def merge(lista1, lista2):
     # Agregamos los resultados a la lista
     result += lista1[i:]
     result += lista2[j:]
-
-    # Retornamos el resultados
     return result
 
-# Prueba del algoritmo
-
 lista = [40,21,4,9,10,35]
-
 print(merge_sort(lista))
