@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="998465d8-0d26-4084-a228-aea4d4136db4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Arboles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Ordenar4(quickSort).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Buscar1.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Buscar1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Buscar2.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Buscar2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Ordenar.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ordenar(metodoBurbuja).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Ordenar2.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ordenar2(insertSort).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Ordenar3.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ordenar3(mergeSort).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Ordenar4.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenFinal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenFinal/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenFinal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenFinal/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenFinal/ExamenFinal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
